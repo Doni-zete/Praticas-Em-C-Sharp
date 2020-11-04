@@ -7,6 +7,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             double d = Math.Pow(10, 2);
+
+            if (d > 0)
+            {
+
+            }
                 
         }
     }
