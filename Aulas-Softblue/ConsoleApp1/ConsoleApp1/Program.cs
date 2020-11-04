@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 
 namespace ConsoleApp1
 {
@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Bem vindo ao C#!")
+            double d = Math.Pow(10, 2);
                 
         }
     }
