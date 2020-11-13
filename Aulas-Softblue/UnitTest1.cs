@@ -10,14 +10,17 @@ namespace UnitTestPratica
         public void TestarIdadeMaior18()
         {
             int idade = 18;
-            bool resultado -helper.
+            bool resultado = Helper.VerificaIdadeDeRisco(idade);
             Assert.IsTrue(resultado);
         }
     }
-    dad
+   
     [TestMethod]
-    public void TestarNumerioRiso()
+    public void TestarNomeRiso()
     {
+        string nome = "Doni";
+        bool resultado = Helper.VerificaNomeDeRisco(nome);
+        Assert.IsTrue(resultado);
     }
 }
 }
